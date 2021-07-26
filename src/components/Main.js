@@ -49,7 +49,7 @@ class Main extends Component{
         localStorage.removeItem("name")
         localStorage.removeItem("role")
         localStorage.removeItem("jwt")
-        window.location.href="http://www.localhost:3000/";
+        window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/";
     }
 
     signupSubmitHandler(event){
@@ -98,7 +98,7 @@ class Main extends Component{
                     this.setState({
                     loggedin:true
                     })
-                    window.location.href="http://www.localhost:3000/companies";
+                    window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/companies";
                 }
                 else{
                     alert("Invalid Credentials")

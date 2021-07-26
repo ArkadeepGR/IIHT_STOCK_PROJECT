@@ -34,7 +34,7 @@ class SaveIpo extends Component{
         }
         sendData(JSON.stringify(data)).then(res=>{
             alert("IPO Added Successfully with Id : "+res.id);
-            window.location.href="http://www.localhost:3000/ipos";
+            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/ipos";
         })
         
     }

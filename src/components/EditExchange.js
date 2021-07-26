@@ -34,7 +34,7 @@ class EditExchange extends Component{
         }
         sendData(JSON.stringify(data)).then(res=>{
             alert(res.name+" updated Successfully");
-            window.location.href="http://www.localhost:3000/exchanges";
+            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/exchanges";
         })
         
     }

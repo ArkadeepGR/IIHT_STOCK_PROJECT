@@ -14,7 +14,7 @@ class SaveExchange extends Component{
         }
         sendData(JSON.stringify(data)).then(res=>{
             alert("Exchange Added Successfully with Id : "+res.id);
-            window.location.href="http://www.localhost:3000/exchanges";
+            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/exchanges";
         })
         
     }

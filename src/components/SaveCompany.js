@@ -35,7 +35,7 @@ class SaveCompany extends Component{
         }
         sendData(JSON.stringify(data)).then(res=>{
             alert("Company Added Successfully with Id : "+res.id);
-            window.location.href="http://www.localhost:3000/companies";
+            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/companies";
             
         })
         

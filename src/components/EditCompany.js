@@ -47,7 +47,7 @@ class EditCompany extends Component{
         console.log(data)
         sendData(JSON.stringify(data)).then(res=>{
             alert(res.name+" updated Successfully");
-            window.location.href="http://www.localhost:3000/companies";
+            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/companies";
         })
         
     }
