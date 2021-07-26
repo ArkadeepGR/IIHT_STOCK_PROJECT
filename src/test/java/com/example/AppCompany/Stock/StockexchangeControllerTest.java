@@ -94,8 +94,8 @@ class StockexchangeControllerTest {
 	void stockexchangeCompaniesById() throws Exception {
 		mockMvc.perform(MockMvcRequestBuilders.get("/stockexchanges/companies/1"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
-		.andExpect(MockMvcResultMatchers.jsonPath("$.*",hasSize(2)))
-		.andExpect(MockMvcResultMatchers.jsonPath("$[*].name",containsInAnyOrder("Axis","LandT")));
+		.andExpect(MockMvcResultMatchers.jsonPath("$.*",hasSize(3)))
+		.andExpect(MockMvcResultMatchers.jsonPath("$[*].name",containsInAnyOrder("Axis","LandT","GE")));
 	}
 	
 	@Test
@@ -103,8 +103,8 @@ class StockexchangeControllerTest {
 	void stockexchangeCompaniesByName() throws Exception {
 		mockMvc.perform(MockMvcRequestBuilders.get("/stockexchanges/companies/name/BSE"))
 		.andExpect(MockMvcResultMatchers.status().isOk())
-		.andExpect(MockMvcResultMatchers.jsonPath("$.*",hasSize(2)))
-		.andExpect(MockMvcResultMatchers.jsonPath("$[*].name",containsInAnyOrder("Axis","LandT")));
+		.andExpect(MockMvcResultMatchers.jsonPath("$.*",hasSize(3)))
+		.andExpect(MockMvcResultMatchers.jsonPath("$[*].name",containsInAnyOrder("Axis","LandT","GE")));
 	}
 
 }
