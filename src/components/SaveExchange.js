@@ -13,7 +13,7 @@ class SaveExchange extends Component{
                 remark:event.target.elements.remark.value
         }
         sendData(JSON.stringify(data)).then(res=>{
-            alert("Exchange Added Successfully with Id : "+res.id);
+            //alert("Exchange Added Successfully with Id : "+res.id);
             window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/exchanges";
         })
         

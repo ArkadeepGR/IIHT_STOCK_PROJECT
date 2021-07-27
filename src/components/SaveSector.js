@@ -11,7 +11,7 @@ class SaveSector extends Component{
                 brief:event.target.elements.brief.value,
        }
         sendData(JSON.stringify(data)).then(res=>{
-            alert("Sector Added Successfully with Id : "+res.id);
+            //alert("Sector Added Successfully with Id : "+res.id);
             window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/sectors";
         })
         

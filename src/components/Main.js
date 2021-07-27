@@ -66,10 +66,12 @@ class Main extends Component{
             signup(JSON.stringify(data)).then(res=>{
                 if(res.id && res.role)
                 {
-                    alert("User Created.")
+                    //alert("User Created.")
+                    window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/login";
                 }
                 else{
                     alert("Failed")
+                    window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/login";
                 }
              })
          }

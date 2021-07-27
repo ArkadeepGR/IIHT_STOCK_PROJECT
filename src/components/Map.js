@@ -35,7 +35,7 @@ class Map extends Component{
                 stockexchangename:event.target.elements.exchange.value,           
         }
         sendData(JSON.stringify(data)).then(res=>{
-            alert("Company Added to Exchange.");
+            //alert("Company Added to Exchange.");
            window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/companies";
         })
         

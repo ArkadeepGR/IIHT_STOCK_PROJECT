@@ -34,7 +34,7 @@ class SaveCompany extends Component{
             sectorId:event.target.elements.sector.value,
         }
         sendData(JSON.stringify(data)).then(res=>{
-            alert("Company Added Successfully with Id : "+res.id);
+            //alert("Company Added Successfully with Id : "+res.id);
             window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/companies";
             
         })
