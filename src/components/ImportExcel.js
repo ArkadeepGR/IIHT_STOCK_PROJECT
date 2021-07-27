@@ -55,8 +55,8 @@ export default class SheetJSApp extends React.Component {
 
 submitHandler(){
     let count=finalData(this.state.data)
-    //alert(count+" stock Prices Added,")
-    window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/stocks";
+    //alert(count+" Stock Prices Added.")
+    //window.location.href="https://stocks-arkadeep-frontend.herokuapp.com/stocks";
 }
 
 
