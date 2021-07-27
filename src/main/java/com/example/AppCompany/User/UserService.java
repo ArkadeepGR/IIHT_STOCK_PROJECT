@@ -85,7 +85,7 @@ public class UserService {
 				//     message.setText("Dear Mail Crawler,"
 				//           + "\n\n Please do not spam my email!");
 				message.setContent(
-						"<h1><a href ='http://localhost:8081/confirm-user/"+userid+"'> Click to confirm </a></h1>",
+						"<h1><a href ='https://stocks-arkadeep-backend.herokuapp.com/confirm-user/"+userid+"'> Click to confirm </a></h1>",
 						"text/html");
 				Transport.send(message);
 
