@@ -20,3 +20,15 @@ To use the deployed version visit : https://stocks-arkadeep-frontend.herokuapp.c
 
 -------------------------------------------------------------------------------------------------
 
+Default Credetials for Admin :
+
+Username : admin
+Password : admin
+
+-------------------------------------------------------------------------------------------------
+
+Default Credetials for User :
+
+Username : user
+Password : user
+
