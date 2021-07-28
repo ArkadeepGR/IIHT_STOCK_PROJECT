@@ -19,6 +19,13 @@ The frontend and backend branchs have been deployed as Heroku applications :
 
 To use the deployed version visit : https://stocks-arkadeep-frontend.herokuapp.com/
 
+-------------------------------------------------------------------------------------------------
+
+Build Instructions : 
+
+ - For Backend : mvn clean install
+
+ - For Frontend : npm start
 
 -------------------------------------------------------------------------------------------------
 
